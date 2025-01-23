@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="work.css">
+</head>
+<body>
+    <p id="errormessage"></p>
+    <div id="login" class="container">
+        <form id="showlogin">
+          <h1>Login</h1>
+        <div class="incorrect">
+            <input type="email" id="emails" name="email" placeholder="Email" maxlength="16" required class="ok">
+            <label>
+                <img src="image/email-svgrepo-com.png" width="28" height="26">
+            </label>
+        </div>
+        
+        <div class="incorrect">
+          <input type="password" id="password" name="password" placeholder="Password" maxlength="8" required class="ok">
+          <label>
+            <img src="image/password-field-solid-svgrepo-com.png" width="28" height="26">
+          </label> 
+        </div>
+        
+        <div class="incorrect">
+          <input type="password" id="confirm" name="confirm" placeholder="ConfirmPassword" maxlength="8" required class="ok">
+          <label>
+            <img src="image/password-field-solid-svgrepo-com.png" width="28" height="26">
+          </label> 
+        </div>
+        
+        <div class="obtain">          
+          <input type="checkbox" id="check">Show Password
+        </div>
+
+        <button type="submit">Login</button>
+    </form>
+    <p>Don't have an account? <a href="signup.html" id="show">Sign Up</a></p>
+    </div>  
+    
+</body>
+<script src="dude.js"></script>
+<script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/flowbite@2.5.1/dist/flowbite.min.js"></script>  
+</html>

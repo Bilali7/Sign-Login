@@ -1,3 +1,3 @@
 setTimeout (() => {
-    window.location = `sign.html`;
+    window.location = `signup.html`;
 }, 5000);
